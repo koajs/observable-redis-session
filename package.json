@@ -1,0 +1,29 @@
+{
+  "name": "koa-observable-redis-session",
+  "description": "Observable, atomic sessions for Koa using Redis",
+  "version": "0.0.0",
+  "author": "Jonathan Ong <me@jongleberry.com> (http://jongleberry.com)",
+  "license": "MIT",
+  "repository": "koajs/observable-redis-session",
+  "dependencies": {
+    "debug": "^2.1.3",
+    "ms": "^0.7.0",
+    "redis": "^0.12.1",
+    "uid-safe": "^1.1.0"
+  },
+  "devDependencies": {
+    "istanbul-harmony": "0",
+    "koa": "0",
+    "mocha": "2",
+    "standardberry": "*",
+    "supertest": "0"
+  },
+  "scripts": {
+    "lint": "standardberry index.js",
+    "test": "mocha",
+    "test-cov": "istanbul cover node_modules/mocha/bin/_mocha -- --reporter dot",
+    "test-ci": "npm run lint && istanbul cover node_modules/mocha/bin/_mocha --report lcovonly -- --reporter dot"
+  },
+  "keywords": [],
+  "files": []
+}
