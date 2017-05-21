@@ -7,7 +7,7 @@
   "repository": "koajs/observable-redis-session",
   "dependencies": {
     "debug": "^2.1.3",
-    "ms": "^0.7.0",
+    "ms": "^2.0.0",
     "redis": "^0.12.1",
     "uid-safe": "^1.1.0"
   },
